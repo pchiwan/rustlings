@@ -1,11 +1,11 @@
 // primitive_types3.rs
-// Create an array with at least 100 elements in it where the ??? is. 
+// Create an array with at least 100 elements in it where the ??? is.
 // Scroll down for hints!
 
 fn main() {
-    let a = ???
+    let array = ["1"; 100];
 
-    if a.len() >= 100 {
+    if array.len() >= 100 {
         println!("Wow, that's a big array!");
     } else {
         println!("Meh, I eat arrays like that for breakfast.");
@@ -38,7 +38,7 @@ fn main() {
 
 
 
-// There's a shorthand to initialize Arrays with a certain size that does not 
+// There's a shorthand to initialize Arrays with a certain size that does not
 // require you to type in 100 items (but you certainly can if you want!).
 // For example, you can do:
 // let array = ["Are we there yet?"; 10];
